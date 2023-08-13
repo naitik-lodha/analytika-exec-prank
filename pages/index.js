@@ -1,25 +1,31 @@
-import { useState } from 'react';
-import { useRouter } from 'next/router';
+import { useState } from "react";
+import { useRouter } from "next/router";
 
 export default function Home() {
   const router = useRouter();
-  const [name, setName] = useState('');
+  const [name, setName] = useState("");
 
   const handleNameSubmit = (e) => {
     e.preventDefault();
-    if (name.trim() !== '') {
+    if (name.trim() !== "") {
       router.push(`/prank?name=${encodeURIComponent(name)}`);
     }
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-[#181818]">
+    <div className="flex justify-center font-fredoka-one items-center min-h-screen bg-[#181818]">
       <div className="w-full max-w-md p-6  border-white border-2 rounded-lg shadow-lg">
         <div className="flex justify-center items-center">
-          <img src="/analytika-logo.png" alt="Analytika Logo" className="w-32 mb-4" />
+          <img
+            src="/analytika-logo.png"
+            alt="Analytika Logo"
+            className="w-32 mb-4"
+          />
         </div>
         <form className="text-center" onSubmit={handleNameSubmit}>
-          <label className="block mb-4 text-lg font-bold text-white">Enter your name:</label>
+          <label className="block mb-4 text-lg font-bold text-white">
+            Enter your name:
+          </label>
           <input
             type="text"
             className="w-full py-2 px-4 rounded-md border bg-inherit text-white focus:outline-none focus:border-blue-500"
