@@ -6,7 +6,7 @@ export default function Prank() {
   const { name } = router.query;
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen bg-black">
+    <div className="flex flex-col justify-center p-4 items-center h-screen bg-black">
       <img
         src="/analytika-logo.png"
         alt="Analytika Logo"
