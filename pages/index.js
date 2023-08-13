@@ -23,18 +23,18 @@ export default function Home() {
           />
         </div>
         <form className="text-center" onSubmit={handleNameSubmit}>
-          <label className="block mb-4 text-lg font-bold text-white">
+          <label className="block mb-4 text-xl font-bold text-white">
             Enter your name:
           </label>
           <input
             type="text"
-            className="w-full py-2 px-4 rounded-md border bg-inherit text-white focus:outline-none focus:border-blue-500"
+            className="w-full py-2 text-2xl px-4 rounded-md border bg-inherit text-white focus:outline-none focus:border-blue-500"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
           <button
             type="submit"
-            className="mt-6 bg-gradient-to-r from-yellow-300 via-green-500 to-green-700 text-white py-2 px-6 rounded-md hover:from-yellow-400 hover:via-green-600 hover:to-green-800 focus:outline-none"
+            className="mt-6 bg-gradient-to-r text-2xl from-yellow-300 via-green-500 to-green-700 text-white py-2 px-6 rounded-md hover:from-yellow-400 hover:via-green-600 hover:to-green-800 focus:outline-none"
           >
             Surprise me!
           </button>

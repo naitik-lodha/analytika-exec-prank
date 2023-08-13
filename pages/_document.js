@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+          href="https://api.fontshare.com/v2/css?f[]=bevellier@400&display=swap"
           rel="stylesheet"
         />
       </Head>
