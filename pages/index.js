@@ -14,8 +14,8 @@ export default function Home() {
 
   return (
     <div className="flex justify-center font-fredoka-one items-center min-h-screen bg-[#181818]">
-      <div className="w-full max-w-md p-6  border-white border-2 rounded-lg shadow-lg">
-        <div className="flex justify-center items-center">
+      <div className="w-full max-w-md p-6  border-white border-2 rounded-lg shadow-lg mx-4">
+        <div className="flex justify-center ">
           <img
             src="/analytika-logo.png"
             alt="Analytika Logo"
