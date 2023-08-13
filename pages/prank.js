@@ -15,7 +15,7 @@ export default function Prank() {
       <div className="text-white text-center mb-6">
         <p className="text-2xl font-bold font-fredoka-one bg-gradient-to-r from-yellow-300 via-green-500 to-green-700 inline-block bg-clip-text text-transparent">
           Congratulations,{" "}
-          <span className="text-3xl font-extrabold">{name} !</span>
+          <span className="text-2xl font-extrabold">{name} !</span>
         </p>
         <br />
         <p className="text-lg inline-block mt-2">
